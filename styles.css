@@ -5,9 +5,11 @@
     font-family: Arial, sans-serif;
 }
 
-body, html {
+body,
+html {
     background: #ffffff;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
+    overflow-x: hidden;
+    /* Prevents horizontal scrolling */
 }
 
 .navbar {
@@ -19,12 +21,15 @@ body, html {
     background: #FFFAF5;
     display: flex;
     align-items: center;
-    justify-content: center; /* Center the nav-elements */
+    justify-content: center;
+    /* Center the nav-elements */
 }
 
 .nav-elements {
-    width: 100%; /* Changed from fixed 1320px */
-    max-width: 1320px; /* Added max-width */
+    width: 100%;
+    /* Changed from fixed 1320px */
+    max-width: 1320px;
+    /* Added max-width */
     height: 38px;
     display: flex;
     align-items: center;
@@ -39,7 +44,8 @@ body, html {
 }
 
 .nav-actions {
-    width: auto; /* Changed from fixed 366px */
+    width: auto;
+    /* Changed from fixed 366px */
     height: 38px;
     gap: 12px;
     opacity: 1;
@@ -77,7 +83,8 @@ body, html {
 }
 
 .phone-number-btn {
-    width: auto; /* Changed from fixed 154px */
+    width: auto;
+    /* Changed from fixed 154px */
     height: 38px;
     gap: 12px;
     opacity: 1;
@@ -89,7 +96,8 @@ body, html {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    white-space: nowrap; /* Prevent number from wrapping */
+    white-space: nowrap;
+    /* Prevent number from wrapping */
 }
 
 
@@ -179,7 +187,8 @@ body, html {
     gap: 20px;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0; /* Prevent form from shrinking */
+    flex-shrink: 0;
+    /* Prevent form from shrinking */
 }
 
 .right-section-form-text {
@@ -342,22 +351,29 @@ body, html {
 }
 
 .whole-lower-section {
-    width: 100%; /* Changed from 1440px */
-    max-width: 1440px; /* Added max-width */
-    height: auto; /* Changed from 4624px */
+    width: 100%;
+    /* Changed from 1440px */
+    max-width: 1440px;
+    /* Added max-width */
+    height: auto;
+    /* Changed from 4624px */
     opacity: 1;
     gap: 60px;
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 60px; /* Added padding */
+    padding-top: 60px;
+    /* Added padding */
 }
 
 .root-canal-types-container {
-    width: 90%; /* Changed from 1320px */
-    max-width: 1320px; /* Added max-width */
-    height: auto; /* Changed from 417px */
+    width: 90%;
+    /* Changed from 1320px */
+    max-width: 1320px;
+    /* Added max-width */
+    height: auto;
+    /* Changed from 417px */
     opacity: 1;
     gap: 20px;
     display: flex;
@@ -366,9 +382,12 @@ body, html {
 }
 
 .root-canal-types-text {
-    width: 90%; /* Changed from 880px */
-    max-width: 880px; /* Added max-width */
-    height: auto; /* Changed from 65px */
+    width: 90%;
+    /* Changed from 880px */
+    max-width: 880px;
+    /* Added max-width */
+    height: auto;
+    /* Changed from 65px */
     opacity: 1;
     gap: 8px;
     display: flex;
@@ -379,25 +398,32 @@ body, html {
 }
 
 .root-canal-types-card-container {
-    width: 100%; /* Changed from 1320px */
-    height: auto; /* Changed from 332px */
+    width: 100%;
+    /* Changed from 1320px */
+    height: auto;
+    /* Changed from 332px */
     opacity: 1;
     gap: 40px;
     display: flex;
-    justify-content: center; /* Center cards */
+    justify-content: center;
+    /* Center cards */
     align-items: center;
 }
 
 .root-canal-types-card-1 {
-    width: 100%; /* Changed from 640px */
-    max-width: 640px; /* Added max-width */
-    height: auto; /* Changed from 332px */
+    width: 100%;
+    /* Changed from 640px */
+    max-width: 640px;
+    /* Added max-width */
+    height: auto;
+    /* Changed from 332px */
     opacity: 1;
     border-radius: 20px;
     border-width: 1px;
     display: flex;
     border: 1px solid var(--Strokes, #FFE0C4);
-    overflow: hidden; /* Ensure radius is respected */
+    overflow: hidden;
+    /* Ensure radius is respected */
 }
 
 .root-canal-card-image {
@@ -410,9 +436,12 @@ body, html {
 }
 
 .root-canal-card-text-container {
-    width: 100%; /* Changed from 320px */
-    height: auto; /* Changed from 332px */
-    min-height: 332px; /* Maintain height for flex */
+    width: 100%;
+    /* Changed from 320px */
+    height: auto;
+    /* Changed from 332px */
+    min-height: 332px;
+    /* Maintain height for flex */
     opacity: 1;
     gap: 16px;
     padding: 16px 20px;
@@ -423,8 +452,10 @@ body, html {
 }
 
 .root-canal-card-text-1 {
-    width: 100%; /* Changed from 256px */
-    height: auto; /* Changed from 53px */
+    width: 100%;
+    /* Changed from 256px */
+    height: auto;
+    /* Changed from 53px */
     opacity: 1;
     gap: 8px;
     display: flex;
@@ -434,8 +465,10 @@ body, html {
 }
 
 .root-canal-card-text-2 {
-    width: 100%; /* Changed from 213px */
-    height: auto; /* Changed from 111px */
+    width: 100%;
+    /* Changed from 213px */
+    height: auto;
+    /* Changed from 111px */
     opacity: 1;
     gap: 8px;
     display: flex;
@@ -449,20 +482,25 @@ body, html {
 }
 
 .root-canal-card-text-3 {
-    width: 100%; /* Changed from 181px */
-    height: auto; /* Changed from 104px */
+    width: 100%;
+    /* Changed from 181px */
+    height: auto;
+    /* Changed from 104px */
     opacity: 1;
     gap: 20px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    margin-top: auto; /* Push to bottom */
+    margin-top: auto;
+    /* Push to bottom */
 }
 
 .root-canal-card-text-3 div {
-    width: auto; /* Changed from 147px */
-    height: auto; /* Changed from 46px */
+    width: auto;
+    /* Changed from 147px */
+    height: auto;
+    /* Changed from 46px */
     opacity: 1;
     gap: 4px;
     display: flex;
@@ -501,8 +539,10 @@ body, html {
 }
 
 .real-smiles-container {
-    width: 100%; /* Changed from 1440px */
-    height: auto; /* Changed from 316px */
+    width: 100%;
+    /* Changed from 1440px */
+    height: auto;
+    /* Changed from 316px */
     opacity: 1;
     gap: 20px;
     display: flex;
@@ -512,9 +552,12 @@ body, html {
 }
 
 .real-smiles-text {
-    width: 90%; /* Changed from 1249px */
-    max-width: 1249px; /* Added */
-    height: auto; /* Changed from 65px */
+    width: 90%;
+    /* Changed from 1249px */
+    max-width: 1249px;
+    /* Added */
+    height: auto;
+    /* Changed from 65px */
     opacity: 1;
     gap: 8px;
     display: flex;
@@ -525,19 +568,24 @@ body, html {
 }
 
 .real-smiles-card-container {
-    width: 90%; /* Changed from 1300px */
-    max-width: 1300px; /* Added */
-    height: auto; /* Changed from 231px */
+    width: 90%;
+    /* Changed from 1300px */
+    max-width: 1300px;
+    /* Added */
+    height: auto;
+    /* Changed from 231px */
     opacity: 1;
     gap: 40px;
     display: flex;
-    justify-content: center; /* Center cards */
+    justify-content: center;
+    /* Center cards */
     align-items: center;
 }
 
 .real-smiles-image-cards {
     width: 295px;
-    height: auto; /* Changed from 231px */
+    height: auto;
+    /* Changed from 231px */
     opacity: 1;
     gap: 12px;
     display: flex;
@@ -574,7 +622,8 @@ body, html {
 }
 
 .real-smiles-image-cards-text span:last-child {
-    width: auto; /* Changed from 52px */
+    width: auto;
+    /* Changed from 52px */
     height: 17px;
     opacity: 1;
     font-family: Figtree, sans-serif;
@@ -585,8 +634,10 @@ body, html {
 }
 
 .dropdown-item {
-    width: 100%; /* Changed from 624px */
-    max-width: 624px; /* Added */
+    width: 100%;
+    /* Changed from 624px */
+    max-width: 624px;
+    /* Added */
 }
 
 .dropdown-header {
@@ -612,7 +663,8 @@ body, html {
 
 
 .dropdown-item.active .dropdown-content {
-    max-height: 200px; /* adjust as needed */
+    max-height: 200px;
+    /* adjust as needed */
 }
 
 .dropdown-item .icon {
@@ -635,9 +687,12 @@ body, html {
 
 
 .clove-dental-container {
-    width: 90%; /* Changed from 1181px */
-    max-width: 1181px; /* Added */
-    height: auto; /* Changed from 525px */
+    width: 90%;
+    /* Changed from 1181px */
+    max-width: 1181px;
+    /* Added */
+    height: auto;
+    /* Changed from 525px */
     opacity: 1;
     gap: 40px;
     display: flex;
@@ -651,16 +706,20 @@ body, html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%; /* Changed from 1181px */
-    height: auto; /* Changed from 63px */
+    width: 100%;
+    /* Changed from 1181px */
+    height: auto;
+    /* Changed from 63px */
     opacity: 1;
     gap: 8px;
     text-align: center;
 }
 
 .clove-dental-card {
-    width: 100%; /* Changed from 1181px */
-    height: auto; /* Changed from 422px */
+    width: 100%;
+    /* Changed from 1181px */
+    height: auto;
+    /* Changed from 422px */
     opacity: 1;
     gap: 40px;
     display: flex;
@@ -669,9 +728,12 @@ body, html {
 }
 
 .clove-dental-card-dropdowns {
-    width: 100%; /* Changed from 793px */
-    max-width: 793px; /* Added */
-    height: auto; /* Changed from 422px */
+    width: 100%;
+    /* Changed from 793px */
+    max-width: 793px;
+    /* Added */
+    height: auto;
+    /* Changed from 422px */
     opacity: 1;
     gap: 40px;
     display: flex;
@@ -681,8 +743,10 @@ body, html {
 }
 
 .clove-dental-card-dropdown-1 {
-    width: 100%; /* Changed from 624px */
-    max-width: 624px; /* Added */
+    width: 100%;
+    /* Changed from 624px */
+    max-width: 624px;
+    /* Added */
     height: 17px;
     opacity: 1;
     gap: 32px;
@@ -718,7 +782,8 @@ body, html {
     padding: 0 60px;
     width: 100%;
     max-width: 1440px;
-    margin: 0 auto; /* Center it */
+    margin: 0 auto;
+    /* Center it */
 }
 
 .faq-title {
@@ -732,9 +797,12 @@ body, html {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
-    width: 100%; /* Ensure container takes width */
-    max-width: 1320px; /* Match other content */
-    margin: 0 auto; /* Center the columns */
+    width: 100%;
+    /* Ensure container takes width */
+    max-width: 1320px;
+    /* Match other content */
+    margin: 0 auto;
+    /* Center the columns */
 }
 
 .faq-column {
@@ -756,7 +824,8 @@ body, html {
 .plus {
     font-size: 20px;
     font-weight: bold;
-    color: #ff7a00; /* orange color like screenshot */
+    color: #ff7a00;
+    /* orange color like screenshot */
 }
 
 
@@ -767,19 +836,23 @@ body, html {
     font-family: Arial, sans-serif;
     width: 100%;
     max-width: 1440px;
-    margin: 60px auto 0 auto; /* Added top margin */
+    margin: 60px auto 0 auto;
+    /* Added top margin */
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap; /* Added for wrapping */
-    gap: 20px; /* Added gap */
+    flex-wrap: wrap;
+    /* Added for wrapping */
+    gap: 20px;
+    /* Added gap */
 }
 
 .footer-logo {
-    width: 150px; /* adjust if needed */
+    width: 150px;
+    /* adjust if needed */
 }
 
 .footer-right {
@@ -793,7 +866,8 @@ body, html {
     gap: 30px;
     justify-content: flex-end;
     margin-bottom: 10px;
-    flex-wrap: wrap; /* Added for wrapping */
+    flex-wrap: wrap;
+    /* Added for wrapping */
 }
 
 .footer-links a {
@@ -808,7 +882,8 @@ body, html {
 
 .footer-line {
     border: none;
-    border-top: 1px solid #ffffff33; /* soft white line */
+    border-top: 1px solid #ffffff33;
+    /* soft white line */
     margin: 10px 0;
 }
 
@@ -838,11 +913,13 @@ Make sure your HTML has a <nav class="mobile-bottom-nav">...</nav>
     }
 
     .nav-actions .book-appointment-btn {
-        display: none; /* Hide "Book Appointment" button in top nav */
+        display: none;
+        /* Hide "Book Appointment" button in top nav */
     }
 
     .nav-actions .phone-number-btn {
-        padding: 6px 10px; /* Slightly smaller button */
+        padding: 6px 10px;
+        /* Slightly smaller button */
         height: 36px;
         gap: 8px;
     }
@@ -850,15 +927,18 @@ Make sure your HTML has a <nav class="mobile-bottom-nav">...</nav>
     .first-section {
         flex-direction: column;
         height: auto;
-        background: none; /* Remove desktop background */
+        background: none;
+        /* Remove desktop background */
         backdrop-filter: none;
     }
 
     .left-section-content {
         width: 100%;
-        height: 280px; /* Adjust as needed */
+        height: 280px;
+        /* Adjust as needed */
         justify-content: center;
-        background: url('assests/left-image-first-section.jpg'); /* Mobile background */
+        background: url('assests/left-image-first-section.jpg');
+        /* Mobile background */
         background-size: cover;
         background-position: center;
     }
@@ -871,31 +951,39 @@ Make sure your HTML has a <nav class="mobile-bottom-nav">...</nav>
         margin-left: 0;
         text-align: left;
     }
-    
+
     .painless-root-canal-treatment::before {
-        display: none; /* Remove blur */
+        display: none;
+        /* Remove blur */
     }
 
     .painless-root-canal-treatment-text span:first-child {
-        font-size: 22px; /* Adjust to match screenshot */
-        color: #FFFFFF; /* Match screenshot */
+        font-size: 22px;
+        /* Adjust to match screenshot */
+        color: #FFFFFF;
+        /* Match screenshot */
     }
-    
+
     .painless-root-canal-treatment-text span:last-child {
-        font-size: 16px; /* Adjust to match screenshot */
-        color: #FFFFFF; /* Match screenshot */
+        font-size: 16px;
+        /* Adjust to match screenshot */
+        color: #FFFFFF;
+        /* Match screenshot */
     }
 
     /* This button is shown in the mobile hero but was part of the text block */
     /* You may need to add a <button> here in your HTML */
     .painless-root-canal-treatment-text .book-appointment-btn {
-        display: flex; /* Show if it exists here */
-        width: 220px; /* As per screenshot */
+        display: flex;
+        /* Show if it exists here */
+        width: 220px;
+        /* As per screenshot */
         margin-top: 15px;
     }
 
     .doctor-image {
-        display: none; /* Hide the floating doctor image */
+        display: none;
+        /* Hide the floating doctor image */
     }
 
     .right-section-form-container {
@@ -910,27 +998,6 @@ Make sure your HTML has a <nav class="mobile-bottom-nav">...</nav>
         text-align: center;
     }
 
-    .conveyer-section-container {
-        padding: 20px;
-    }
-
-    .conveyer-track {
-        animation: none; /* Stop animation */
-        width: 100%;
-        justify-content: space-around; /* Space out items */
-    }
-
-    /* Hide duplicate items in the conveyer for mobile */
-    .conveyer-items + .conveyer-items {
-        display: none;
-    }
-
-    .conveyer-items {
-        margin: 0;
-        gap: 8px;
-        white-space: normal;
-        flex-direction: column; /* Stack icon and text */
-    }
 
     .whole-lower-section {
         padding-top: 20px;
@@ -938,8 +1005,10 @@ Make sure your HTML has a <nav class="mobile-bottom-nav">...</nav>
     }
 
     .root-canal-types-container {
-        width: 100%; /* Use full width */
-        padding: 0 20px; /* Add horizontal padding */
+        width: 100%;
+        /* Use full width */
+        padding: 0 20px;
+        /* Add horizontal padding */
         gap: 20px;
     }
 
@@ -955,7 +1024,8 @@ Make sure your HTML has a <nav class="mobile-bottom-nav">...</nav>
 
     .root-canal-card-image {
         width: 100%;
-        height: 200px; /* Fixed height for mobile image */
+        height: 200px;
+        /* Fixed height for mobile image */
         border-radius: 20px 20px 0 0;
     }
 
@@ -986,7 +1056,8 @@ Make sure your HTML has a <nav class="mobile-bottom-nav">...</nav>
 
     .real-smiles-image-cards-text {
         width: 100%;
-        padding: 0 10px; /* Add some padding */
+        padding: 0 10px;
+        /* Add some padding */
     }
 
     .clove-dental-container {
@@ -995,7 +1066,8 @@ Make sure your HTML has a <nav class="mobile-bottom-nav">...</nav>
     }
 
     .clove-dental-card {
-        flex-direction: column-reverse; /* Image on top */
+        flex-direction: column-reverse;
+        /* Image on top */
     }
 
     .clove-dental-card-image {
@@ -1016,13 +1088,15 @@ Make sure your HTML has a <nav class="mobile-bottom-nav">...</nav>
     }
 
     .faq-container {
-        grid-template-columns: 1fr; /* Stack FAQ columns */
+        grid-template-columns: 1fr;
+        /* Stack FAQ columns */
         gap: 20px;
     }
 
     .footer {
         padding: 30px 20px;
-        margin-bottom: 60px; /* Add space for the fixed bottom nav */
+        margin-bottom: 60px;
+        /* Add space for the fixed bottom nav */
     }
 
     .footer-content {
@@ -1056,7 +1130,7 @@ Make sure your HTML has a <nav class="mobile-bottom-nav">...</nav>
         background: #ffffff;
         border-top: 1px solid #e0e0e0;
         z-index: 1000;
-        box-shadow: 0 -2px 5px rgba(0,0,0,0.05);
+        box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.05);
     }
 
     .mobile-nav-btn {
@@ -1071,15 +1145,16 @@ Make sure your HTML has a <nav class="mobile-bottom-nav">...</nav>
         gap: 4px;
         font-weight: 500;
     }
-    
-    .mobile-nav-btn img { /* Assuming you use <img> for icons */
+
+    .mobile-nav-btn img {
+        /* Assuming you use <img> for icons */
         width: 24px;
         height: 24px;
     }
-    
+
     /* Example of a divider */
     .mobile-nav-btn:first-child {
-         border-right: 1px solid #e0e0e0;
+        border-right: 1px solid #e0e0e0;
     }
 
 }
