@@ -23,8 +23,8 @@ items.forEach(item => {
         items.forEach(i => {
             const icon = i.querySelector('.icon');
             icon.src = i.classList.contains('active')
-                ? "/assests/minus-sign.png"
-                : "/assests/plus-sign.png";
+                ? "assests/minus-sign.png"
+                : "assests/plus-sign.png";
         });
 
         // Change right-side image only if just opened
